@@ -1,3 +1,4 @@
-cd /repo
+#!/bin/bash
+cd /mpi
 gcc -o hello hello.c -lmpi
-/repo/hello
+/mpi/hello
